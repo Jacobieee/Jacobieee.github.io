@@ -213,12 +213,12 @@
     </span>
 
   
-    <span class="post-meta-item" title="Views">
+    <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
       <span class="post-meta-item-text">Views: </span>
-      <span class="firestore-visitors-count"></span>
+      <span id="busuanzi_value_page_pv"></span>
     </span>
 </div>
 
@@ -276,6 +276,24 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Lihuan Li</span>
 </div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
 
@@ -293,11 +311,8 @@
 
 
   
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.13.0/firebase-app-compat.js" integrity="sha256-DLBWes2PexZ4qk+BBQhe6ZnHsvx6Yd3fCZjBvKfLR80=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.13.0/firebase-firestore-compat.js" integrity="sha256-FyOmNvU9Mrxw8LUUdR6zonPk4vK0UoUPf0mFHLEDaPY=" crossorigin="anonymous"></script>
-  <script class="next-config" data-name="firestore" type="application/json">{"enable":true,"collection":"articles","apiKey":"AIzaSyABnLAPob2e0Z7h9AOPXhxODFYh--gWApM","projectId":"my-personal-website-df05e"}</script>
-  <script src="js/third-party/statistics/firestore.js"></script>
 
 
 
